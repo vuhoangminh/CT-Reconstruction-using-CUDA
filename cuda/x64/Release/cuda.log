@@ -1,0 +1,38 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\RD\Google Drive\Working\VS2015\OpenCVTest\cuda>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -IC:\Users\RD\Downloads\Programs\OpenCV2\opencv\build\include -I"C:\ProgramData\NVIDIA Corporation\CUDA Samples\v8.0\common\inc" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o x64\Release\kernel.cu.obj "C:\Users\RD\Google Drive\Working\VS2015\OpenCVTest\cuda\kernel.cu" 
+C:\Users\RD\Downloads\Programs\OpenCV2\opencv\build\include\opencv2/core/base.hpp(365): warning : function declared with "noreturn" does return
+C:/Users/RD/Google Drive/Working/VS2015/OpenCVTest/cuda/kernel.cu(263): warning : variable "M" was declared but never referenced
+C:/Users/RD/Google Drive/Working/VS2015/OpenCVTest/cuda/kernel.cu(303): warning : variable "M" was declared but never referenced
+C:\Users\RD\Downloads\Programs\OpenCV2\opencv\build\include\opencv2/core/base.hpp(365): warning : function declared with "noreturn" does return
+C:/Users/RD/Google Drive/Working/VS2015/OpenCVTest/cuda/kernel.cu(263): warning : variable "M" was declared but never referenced
+C:/Users/RD/Google Drive/Working/VS2015/OpenCVTest/cuda/kernel.cu(303): warning : variable "M" was declared but never referenced
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  kernel.cu
+C:/Users/RD/Google Drive/Working/VS2015/OpenCVTest/cuda/kernel.cu(274): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:/Users/RD/Google Drive/Working/VS2015/OpenCVTest/cuda/kernel.cu(317): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:/Users/RD/Google Drive/Working/VS2015/OpenCVTest/cuda/kernel.cu(446): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:/Users/RD/Google Drive/Working/VS2015/OpenCVTest/cuda/kernel.cu(453): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:/Users/RD/Google Drive/Working/VS2015/OpenCVTest/cuda/kernel.cu(456): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:/Users/RD/Google Drive/Working/VS2015/OpenCVTest/cuda/kernel.cu(464): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:/Users/RD/Google Drive/Working/VS2015/OpenCVTest/cuda/kernel.cu(547): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:/Users/RD/Google Drive/Working/VS2015/OpenCVTest/cuda/kernel.cu(550): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:/Users/RD/Google Drive/Working/VS2015/OpenCVTest/cuda/kernel.cu(578): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:/Users/RD/Google Drive/Working/VS2015/OpenCVTest/cuda/kernel.cu(596): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:/Users/RD/Google Drive/Working/VS2015/OpenCVTest/cuda/kernel.cu(599): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:/Users/RD/Google Drive/Working/VS2015/OpenCVTest/cuda/kernel.cu(654): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:/Users/RD/Google Drive/Working/VS2015/OpenCVTest/cuda/kernel.cu(672): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:/Users/RD/Google Drive/Working/VS2015/OpenCVTest/cuda/kernel.cu(675): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:/Users/RD/Google Drive/Working/VS2015/OpenCVTest/cuda/kernel.cu(766): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:/Users/RD/Google Drive/Working/VS2015/OpenCVTest/cuda/kernel.cu(784): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:/Users/RD/Google Drive/Working/VS2015/OpenCVTest/cuda/kernel.cu(787): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:/Users/RD/Google Drive/Working/VS2015/OpenCVTest/cuda/kernel.cu(815): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:/Users/RD/Google Drive/Working/VS2015/OpenCVTest/cuda/kernel.cu(834): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  Generating code
+  Finished generating code
+  cuda.vcxproj -> C:\Users\RD\Google Drive\Working\VS2015\OpenCVTest\x64\Release\cuda\cuda.exe
+  cuda.vcxproj -> C:\Users\RD\Google Drive\Working\VS2015\OpenCVTest\x64\Release\cuda\cuda.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "C:\Users\RD\Google Drive\Working\VS2015\OpenCVTest\x64\Release\cuda\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart32_80.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart64_80.dll
+          2 file(s) copied.

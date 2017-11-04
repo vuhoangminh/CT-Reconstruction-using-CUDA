@@ -1,0 +1,3 @@
+﻿  stdafx.cpp
+  OpenCVTest.cpp
+LINK : fatal error LNK1104: cannot open file 'opencv_world320d.obj'

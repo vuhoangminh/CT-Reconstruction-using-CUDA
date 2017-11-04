@@ -1,0 +1,14 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (OpenCVTest.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  stdafx.cpp
+  OpenCVTest.cpp
+c:\users\rd\google drive\working\vs2015\opencvtest\opencvtest\opencvtest.cpp(174): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\rd\google drive\working\vs2015\opencvtest\opencvtest\opencvtest.cpp(201): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\rd\google drive\working\vs2015\opencvtest\opencvtest\opencvtest.cpp(355): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\rd\google drive\working\vs2015\opencvtest\opencvtest\opencvtest.cpp(360): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\rd\google drive\working\vs2015\opencvtest\opencvtest\opencvtest.cpp(364): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\rd\google drive\working\vs2015\opencvtest\opencvtest\opencvtest.cpp(372): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\rd\google drive\working\vs2015\opencvtest\opencvtest\opencvtest.cpp(395): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\rd\google drive\working\vs2015\opencvtest\opencvtest\opencvtest.cpp(396): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\rd\google drive\working\vs2015\opencvtest\opencvtest\opencvtest.cpp(411): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  OpenCVTest.vcxproj -> C:\Users\RD\Google Drive\Working\VS2015\OpenCVTest\x64\Debug\CT_Reconstruction.exe
+  OpenCVTest.vcxproj -> C:\Users\RD\Google Drive\Working\VS2015\OpenCVTest\x64\Debug\CT_Reconstruction.pdb (Full PDB)
